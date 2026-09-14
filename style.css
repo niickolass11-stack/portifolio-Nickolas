@@ -220,6 +220,29 @@ h1{
     font-weight:700;
     text-decoration:none
 }
+
+.links-projeto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.links-projeto a {
+    padding: 10px 14px;
+    border: 1px solid var(--roxo);
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.links-projeto a:first-child {
+    background-color: var(--roxo);
+    color: white;
+}
+
+.links-projeto a:hover {
+    transform: translate(-2px);
+    opacity: 0.85;
+}
 .sobre{
     display:grid;
     grid-template-columns:1fr 1fr;
